@@ -8,7 +8,7 @@ connectdb()
 
 const authroutes=require("./routes/authroutes")
 const corsOptions = {
-  origin: ['https://user-first-program-front-end.vercel.app/','http://localhost:5173'], // must be exact frontend URL
+  origin: ['https://user-first-program-front-end.vercel.app','http://localhost:5173'], // must be exact frontend URL
   credentials: true, // allow cookies, headers, etc.
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
